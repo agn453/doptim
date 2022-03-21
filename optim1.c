@@ -1171,7 +1171,7 @@ void removeLabelRef(register sym_t *ps) {
 #if 1
 
 void sub_15ad() {
-//    register inst_t *pi;
+/*    register inst_t *pi; */
 
     for (gPi = root; gPi; gPi = gPi->pNext) {
         if (!sub_1795() && gPi->type == T_JP && !sub_1aec() && !sub_1b86()) {

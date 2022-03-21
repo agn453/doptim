@@ -60,7 +60,7 @@ int                cur_psect;			/* 6fea	Current program section */
 int                expectCond;			/* 6fec */
 inst_t           * word_6fee;			/* 6fee */
 int                tokType;			/* 6ff0	Token value */
-inst_t           * switchVectors; //word_6ff2;			/* 6ff2 */
+inst_t           * switchVectors; /* word_6ff2; */	/* 6ff2 */
 /*static term_t    termTmp;		           6ff4	[4] Moved to function as static variable */
 inst_t           * root;			/* 6ff8 */
 int                cntOperand;              	/* 6ffa	Used only in sub_39a3 */

@@ -213,9 +213,9 @@ enum type {
  */
 
 #ifdef CPM
-//typedef unsigned short uint16_t;
-//typedef short int16_t;
-//typedef unsigned char uint8_t;
+/* typedef unsigned short uint16_t; */
+/* typedef short int16_t; */
+/* typedef unsigned char uint8_t; */
 #define const
 #endif
 
@@ -373,7 +373,7 @@ extern int                  cur_psect;			/* Current program section */
 extern int                  expectCond;
 extern inst_t             * word_6fee;
 extern int                  tokType;			/* Token value */
-extern inst_t             * switchVectors; //word_6ff2;
+extern inst_t             * switchVectors; /* word_6ff2; */
 extern inst_t             * root;
 extern int                  cntOperand;			/* used only in sub_39a3 */
 extern inst_t             * word_6ffc;

@@ -32,8 +32,8 @@ $(COBJS): %.obj: %.c
 #	zxas -j -n $<
 
 optim.com: $(OBJS)
-	zxcc link -"<" +lkoptim
-	sort optim1.sym | uniq > optim1.sym.sorted
+	zxlink <lkoptim
+	sort <optim1.sym | uniq > optim1.sym.sorted
 
 clean:
 	rm -f $(OBJS) optim1.com *.\$$\$$\$$ optim1.map optim1.sym optim1.sym.sorted
